@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Brandon';
+    src: url('../fontes/brandon-grotesque-light-58a8a4b38001d.otf') format('opentype');
+    font-weight: lighter;
+}
+
+:root {
+    --fonte-padrao: Times, Arial, Verdana, Helvetica, sans-serif;
+    --fonte-brandon: 'Brandon', Arial;
+}
+body {
+    background-color: white;
+
+}
+
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: 100;
+    margin: 50px;
+}
+
+header p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 50px;
+    margin-top: -50px;
+}
+
+nav {
+    font-family: var(--fonte-brandon), Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+   
+}
+
+main {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    width: 85%;
+    float: right;
+    text-align: center;
+    font-family: var(--fonte-brandon),Arial, Helvetica, sans-serif;
+
+    }
+
+main p {
+        margin-bottom: 60px;
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+
+}
+
+main h2 {
+        font-weight: 200;
+        font-size: 25px;
+        margin: 0;
+        margin-left: 0px; 
+        padding: 2px;
+        text-align: center;
+
+}
+
+#Menu {
+    background-color: white;
+	width: 15%;
+	margin: 0;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding-bottom: 500px;
+    padding-right: 20px;
+    padding-left: 20px;
+	float: left;
+    position: fixed;
+	}
+    
+#Menu ul li {
+    margin: 0; padding: 0px;
+    text-align: left;
+    list-style-type: none;
+    }
+        
+#Menu a:link {
+    background: #F5F5F5;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    }
+
+#Menu a:hover {
+    background: #E5F0FF;
+    color: #039;
+    }
+
+footer {
+    font-family: var(--fonte-brandon);
+    font-size: 13px;
+    margin: 50px;
+    position: fixed;
+    bottom:0;
+
+}   
